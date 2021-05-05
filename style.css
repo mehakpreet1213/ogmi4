@@ -1,0 +1,53 @@
+.grid{
+ display: flex;   
+flex-wrap: wrap; 
+justify-content: space-between;
+align-content:space-between;
+margin: 40px;
+} 
+
+
+.card{
+
+border-radius: 2px;
+border-color: chartreuse;
+width: 300px;
+margin: auto;
+padding: 6px;
+background-color: cyan;
+
+}
+
+
+
+
+.menu{
+    display: flex;
+    
+  
+  background-color: chartreuse;
+    justify-content: space-between;
+padding: 20px;
+
+
+
+
+
+
+
+
+}
+a:link{
+
+  color:red
+}
+a:visited{
+  color:black;
+}
+
+a{text-decoration: none }
+
+.card:hover{
+transform:scale(1.2)
+
+}
